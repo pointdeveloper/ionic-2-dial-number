@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  
+    <a ion-button href="tel:+123-456-789" >Call me 1 </a>
+    <a ion-button href="tel:+123#456-789" >Call me 2</a>
+    <a ion-button href="tel:+123*456-789" >Call me 3</a>
+    <a ion-button href="tel:+123 call" >Call me 4</a>
+    <a ion-button href="tel:123 456 789" >Call me 5</a>
+  
+    <button ion-button (click)="callIT('tel:+1-1800-555-5555')">call function</button>
+</ion-content>
